@@ -1,4 +1,4 @@
-    body {
+body {
     background-color: #4677f6;
     font-family: sans-serif;
 }
@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .p1 {
@@ -22,3 +23,31 @@
     font-weight: bolder;
     margin-left: 4rem;
     margin-right: 4rem;
+}
+
+.head2 {
+    background-image: url(../media/map.png);
+    background-size: cover;
+    height: 6.8rem;
+    width: 21rem;
+    border-radius: 5px;
+    margin-left: -0.45rem;
+    filter: drop-shadow(2px 8px 9px gray);
+}
+
+.img2 {
+    background-color: red;
+}
+
+.p2 {
+    font-size: small;
+    /* color: white; */
+}
+
+.circle1 {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    /* background-color: white; */
+    background-color: red;
+}
