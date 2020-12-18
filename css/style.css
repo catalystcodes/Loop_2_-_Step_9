@@ -129,13 +129,40 @@ button {
     color: white;
 }
 
-.img1:hover {
+svg:hover {
     cursor: pointer;
-    fill: red;
+    fill: black;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #1957f2;
     transition: 0.9s;
+}
+
+.p7 {
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+
+.head3 {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.sub-head3 {
+    margin-left: 0.9rem;
+}
+
+.p8 {
+    font-size: 0.7rem;
+    color: #bdc1c4;
+}
+
+.p9 {
+    font-size: 0.7rem;
 }
