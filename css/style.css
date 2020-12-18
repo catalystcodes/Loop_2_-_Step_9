@@ -4,7 +4,7 @@ body {
 }
 
 .whole {
-    height: 29rem;
+    height: 32rem;
     width: 20rem;
     margin: 5rem auto;
     background-color: white;
@@ -165,4 +165,19 @@ button:hover {
 
 .p9 {
     font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.head4 {
+    width: 19.5rem;
+    height: 3rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    background-image: url(../media/streetview.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
